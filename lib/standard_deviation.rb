@@ -10,7 +10,15 @@ count = ages.count
 puts count.to_f
 
 average = total.to_f / count.to_f
-puts average.to_f
+puts average
+
+ages.each do |number|
+  subtract_and_square = (number - average)**2
+  # av_and_sq = [] << subtract_interger
+  puts subtract_and_square
+
+end
+
 
 
 
