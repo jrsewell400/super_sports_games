@@ -1,24 +1,23 @@
 # Your code here for calculating the standard deviation
 # When you find the standard deviation, print it out
-# class StandardDeviation
-#
-# attr_reader :sum, :ages
+
 ages = [24, 30, 18, 20, 41]
-#
-#   def initialize(sum, ages)
-#     @sum = sum
-#     @ages = ages
-#   end
 
-  def output
-    sum = ages.sum
-  end
+total = ages.sum
+puts total.to_f
 
-addition = output
-puts sum
-# end
+count = ages.count
+puts count.to_f
 
-# addition = StandardDeviation.new
-# addition.output
-# def number_of_intergers
-#   count =
+average = total.to_f / count.to_f
+puts average.to_f
+
+
+
+
+
+
+  # def add
+  #   [24, 30, 18, 20, 41].sum = total
+  #   puts total
+  # end
